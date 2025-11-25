@@ -1,0 +1,1527 @@
+/**** 定义全局样式 ****/
+*{
+    margin:0;
+    padding:0
+}
+
+body{
+    font-size: 16px;
+    color:#333333;
+    font-family:"微软雅黑"
+}
+li{
+    list-style: none
+}
+img{
+    vertical-align:middle
+}
+a,a:hover{
+    text-decoration:none;
+    color:#333333;
+}
+h1,h2,h3,h4,h5,h6,dl,p,dl,dd{
+    margin:0;
+}
+.wrap{
+    width: 100%;
+    overflow: hidden;
+}
+
+/**/
+.login_res{
+    color: #7d7e80 !important;
+    line-height: 27px;
+    margin-top: 15px;
+    margin-left: 20px;
+    /*width: 140px;*/
+    position: relative;
+    top: -14px;
+    float: right;
+    color: white !important;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.login_res a{
+	color: white;
+}
+#key a:first-child{
+	margin-right: 4px;
+}
+#key a:last-child{
+	margin-left: 4px;
+}
+/**/
+
+.w1200{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.bottom0{
+    margin-bottom: 0!important;
+}
+.container{
+    width: 100%;
+    min-width: 1200px;
+    overflow: hidden;
+}
+/**** 头部 ****/
+.header{
+    width: 100%;
+    overflow: hidden;
+    background: url(../images/header/header_bg.png) no-repeat center top;
+    height:558px;
+}
+.header_top{
+    margin-top: 35px;
+    overflow: hidden;
+    height: 52px;
+    line-height: 52px;
+}
+.header_top .header_right{
+    width:913px;
+    text-align: right;
+    height:52px;
+    line-height:52px;
+    color:#fff;
+}
+.header_top .header_right  a{
+    color:#fff;
+}
+.header_top .header_right  a img{
+    margin-right: 5px;
+    margin-left: 22px;
+}
+.header_bottom{
+    margin-top:150px;
+    padding-left: .2rem;
+}
+.header_bottom h1{
+    color:#fff;
+    font-size: 44px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.header_bottom h1 span{
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin-left: 10px;
+}
+.header_bottom .searchBox{
+    width: 726px;
+    height: 74px;
+    opacity: 1;
+    background:#fff;
+    border-radius: 37px;
+    position: absolute;
+    margin-left: 0;
+}
+.header_bottom .searchBox input[type="search"]{
+    width:574px;
+    height:74px;
+    float: left;
+    border:none;
+    padding-left:20px;
+    padding-right: 20px;
+    font-size: 24px;
+    border-radius:37px;
+    outline:none;
+    background: #fff;
+    color:#333;
+}
+.header_bottom .searchBox input[type="submit"]{
+    width: 148px;
+    height: 68px;
+    opacity: 1;
+    background:#EA9E3C;
+    border:none;
+    color:#fff;
+    font-size: 24px;
+    margin-top:3px;
+    border-radius: 34px;
+    text-align: left;
+    padding-left: 36px;
+    cursor: pointer;
+}
+.header_bottom .searchBox .searchIcon{
+    position: relative;
+    background: url("../images/header/search.png") no-repeat;
+    z-index: 88;
+    margin-left: 86px;
+    margin-top: -44px;
+    display: inline-block;
+    width: 34px;
+    height: 29px;
+    float: left;
+    cursor: pointer;
+}
+/**** 我们的服务种类 ****/
+.serviceType{
+    height:300px;
+    width: 1124px;
+    margin: -118px auto 0;
+    background: #fff;
+    padding: 40px 38px 0 38px;
+    border-radius: 8px;
+    box-shadow: 0 2px 7px 0 rgba(83,12,21,0.3);
+}
+.service{
+    float: left;
+    width:540px;
+    overflow: hidden;
+    color: #222;
+}
+.service h1{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 500;
+    color:#333;
+    margin-bottom: 38px !important;
+}
+.service ul li{
+    float: left;
+    width:270px;
+    overflow: hidden;
+    margin-bottom: 22px;
+    font-size: 18px;
+}
+.service ul li img{
+    float: left;
+    margin-right: 20px;
+}
+.serviceTel{
+    width:502px;
+    overflow: hidden;
+    float:right
+}
+.serviceTel h1 span.serviceTelspan{
+    font-size: 16px;
+    margin-left: 30px;
+    font-weight: normal;
+    color: #A7A7A7;
+}
+.serviceTel .telBox{
+    width: 500px;
+    margin-bottom: 34px;
+    height: 52px;
+    opacity: 1;
+    background:#fff;
+    border-radius: 26px;
+    position: relative;
+}
+.serviceType .telBox .phoneIcon {
+    position: absolute;
+    background: url(../images/serviceType/phone_gray.png) no-repeat;
+    z-index: 88;
+    margin-left: 22px;
+    margin-top: 12px;
+    display: inline-block;
+    width: 27px;
+    height: 30px;
+}
+.serviceType .telBox input[type="tel"]{
+    position: absolute;
+    width:310px;
+    height:52px;
+    font-size: 16px;
+    background: #FFE8E7;
+    border-radius:26px;
+    padding-left: 50px;
+    padding-right: 86px;
+    border:none;
+    outline: none;
+    float: left;
+    color:#333;
+}
+.serviceType .telBox input[type="submit"]{
+    width:120px;
+    margin-left:380px;
+    margin-top: -1px;
+    height:52px;
+    z-index: 33;
+    position: absolute;
+    color:#fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    border:none;
+    background: #EB633D;
+    border-radius: 26px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.serviceTel .advantage{
+    width: 500px;
+    height: 54px;
+    overflow: hidden;
+    box-sizing: border-box;
+    color:#EB6442;
+    text-align: center;
+    line-height:54px;
+    background:#fcf1f0;
+    border:1px #EB6442 solid;
+    font-size: 18px;
+    font-weight:600;
+    border-radius: 27px;
+}
+
+/**** 招牌服务 ****/
+.signboardService{
+    background: #fff;
+    margin-top: 118px;
+    margin-bottom: 135px;
+}
+.signboard_top .title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.signboard_top .subtitle{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    color:#959595;
+    margin-bottom: 58px;
+}
+.signboard_bottom .module{
+    width:240px;
+    height:196px;
+    float:left;
+    padding:30px 30px 0 30px;
+    background: #f5f5f7;
+    cursor: pointer;
+}
+.signboard_bottom .module h6{
+    color:#ea903b;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+.signboard_bottom .module span{
+    width: 15px;
+    height: 2px;
+    background:#EB633D;
+    display: block;
+    margin-top: 10px;
+}
+.signboard_bottom .module img{
+    margin-left: 15px;
+    position: relative;
+    margin-top: -23px;
+}
+.signboard_bottom .module:hover{
+    background:url(../images/service/service_bg.png) no-repeat left top;
+    color:#fff;
+}
+.signboard_bottom .module:hover h6{
+    color:#fff;
+}
+.signboard_bottom .module:hover span{
+    background:#fff;
+}
+
+/**** 服务模式 ****/
+.serviceMode{
+    background: #f5f5f7;
+    padding-top:62px;
+    padding-bottom: 26px;
+}
+.serviceMode .serviceMode_top .title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.serviceMode .serviceMode_top .subtitle{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    color:#959595;
+    margin-bottom: 60px;
+}
+.serviceMode .serviceMode_bottom dl{
+    width:400px;
+    overflow: hidden;
+    float: left;
+    margin-bottom: 50px;
+}
+.serviceMode .serviceMode_bottom dl dt{
+    width: 53px;
+    height: 53px;
+    border-radius:28px;
+    border:1px #222 solid;
+    text-align: center;
+    line-height: 53px;
+    font-size: 24px;
+    float: left;
+    margin-right:24px;
+}
+.serviceMode .serviceMode_bottom dl dd{
+    float: left;
+    width:320px;
+}
+.serviceMode .serviceMode_bottom dl dd:nth-child(2){
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.serviceMode .serviceMode_bottom dl dd:nth-child(3){
+    font-size: 16px;
+}
+
+/**** 服务范围 ****/
+.serviceScope{
+    background: #fff;
+    padding-top:110px;
+    padding-bottom:100px;
+}
+.serviceScope .serviceScope_top .title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.serviceScope .serviceScope_top .subtitle{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    color:#959595;
+    margin-bottom: 55px;
+}
+.serviceScope .serviceScope_bottom .scopeBox{
+    width:366px;
+    overflow: hidden;
+    float: left;
+    margin-right: 51px;
+}
+.serviceScope .serviceScope_bottom .scopeBox:last-child{
+    margin-right: 0 !important;
+}
+.serviceScope .serviceScope_bottom .scopeBox ul{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 22px;
+}
+.serviceScope .serviceScope_bottom .scopeBox ul a{
+    float: left;
+    font-size: 16px;
+    margin-bottom:15px;
+}
+.serviceScope .serviceScope_bottom .scopeBox ul a span{
+    width:34px;
+    text-align: center;
+    display: inline-block;
+}
+.serviceScope .serviceScope_bottom .scopeBox p a{
+    color:#df3c38;
+}
+
+/**** 服务流程 ****/
+.serviceProcess{
+    background: #f5f5f7;
+    padding-top:62px;
+    padding-bottom: 65px;
+}
+.serviceProcess .process_top .title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.serviceProcess .process_top .subtitle{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    color:#959595;
+    margin-bottom: 60px;
+}
+.serviceProcess .process_bottom{
+    width: 1070px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.serviceProcess .process_bottom dl, .process_bottom p{
+    float: left;
+}
+.serviceProcess .process_bottom dl{
+    width:130px;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+.serviceProcess .process_bottom dl dd:nth-child(2){
+    font-size: 20px;
+    margin-top:30px;
+    margin-bottom: 15px;
+}
+.serviceProcess .process_bottom dl dd:nth-child(3){
+    font-size: 14px;
+}
+.serviceProcess .process_bottom p{
+    width:52px;
+    height:170px;
+    overflow: hidden;
+    float:left;
+    text-align: center;
+}
+
+/**** 精品案例 ****/
+.advertisement{
+    height:220px;
+    background: #EB633D;
+    text-align: center;
+    padding:0;
+    color:#fff;
+}
+.advertisementBox h3{
+    margin-top:30px;
+    font-size: 48px;
+    font-weight: 500;
+}
+.advertisementBox h4{
+    font-size: 20px;
+    margin:10px 0 36px 0;
+    font-weight: 500;
+}
+.advertisementBox h4 span{
+    font-size: 28px;
+    font-weight: 500;
+}
+.advertisementBox p{
+    font-size: 18px;
+}
+.advertisementBox p a{
+    color:#fff;
+    text-decoration: underline;
+}
+
+/**** 预算标志 ****/
+.budget{
+    background: #fff;
+    padding-top:90px;
+}
+.budget .budget_top .title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.budget .budget_top .subtitle{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    color:#959595;
+    margin-bottom: 55px;
+}
+.budget .budget_middle dl dd:nth-child(2){
+    font-size: 24px;
+}
+.budget .budget_middle dl dd:nth-child(3){
+    font-size: 18px;
+    color:#df403d;
+    margin-top:15px;
+}
+.budget .budget_middle .BoxDl{
+    width: 300px;
+    height: 425px;
+    float:left;
+    text-align: center;
+}
+.budget .budget_middle .BoxDl dd:nth-child(2){
+    font-size: 24px;
+    margin-top: -128px !important;
+    background: red;
+}
+.budget_middle .BoxD2{
+    width: 550px;
+    height: 418px;
+    float:left;
+    margin:0 25px;
+}
+.budget_middle .BoxD2 dl{
+    margin-bottom: 25px;
+    height:200px;
+}
+.budget_middle .BoxD2 dl dt{
+    float: left;
+    width:250px;
+}
+.budget_middle .BoxD2 dl dd:nth-child(2){
+    padding-top: 67px;
+    padding-left: 280px;
+}
+.budget_middle .BoxD2 dl dd:nth-child(3){
+    margin-top:10px;
+    padding-left: 280px;
+}
+.budget_bottom{
+    margin-top:70px;
+    margin-bottom:70px;
+}
+.budget_bottom .boxTwoLeft{
+    width:623px;
+    overflow: hidden;
+    float: left;
+}
+.budget_bottom .boxTwoLeft div{
+    width:100%;
+    overflow: hidden;
+    padding:0 15px;
+}
+.budget_bottom .boxTwoLeft span{
+    width:166px;
+    float: left;
+    margin-right:46px;
+    text-align: center;
+    margin-bottom:15px;
+}
+.budget_bottom .boxTwoLeft .no_right{
+    margin-right:0 !important;
+}
+.budget_bottom p.titleP{
+    width:100%;
+    overflow: hidden;
+    border-bottom: 1px rgba(153,153,153,0.3) solid;
+    font-size: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+.budget_bottom  .boxTwoRight{
+    width:480px;
+    overflow: hidden;
+    float:right
+}
+.budget_bottom .boxTwoRight p.more{
+    margin-top:20px
+}
+.budget_bottom .boxTwoRight ul{
+    width:100%;
+    overflow: hidden;
+    margin-top:22px;
+}
+.budget_bottom .boxTwoRight ul a span{
+    width:34px;
+    text-align: center;
+    display: inline-block;
+}
+.budget_bottom .boxTwoRight ul a{
+    float: left;
+    font-size: 16px;
+    margin-bottom:15px;
+}
+.budget_bottom .boxTwoRight p a{
+    color:#df3c38;
+}
+
+/**** 电子标流程 ****/
+.electronicsBid{
+    height:420px;
+    background: url(../images/electronicsBid/ele_bg.png) no-repeat center top;
+}
+.electronicsBid .electronicsBox h1{
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color:#333;
+}
+.electronicsBid .electronicsBox h2{
+    font-size: 16px;
+    font-weight: 500;
+    color:#959595;
+    margin-bottom: 50px;
+}
+.electronicsBid .electronicsBox h1 a{
+    font-size: 18px;
+    font-weight: 500;
+    color:#df3c38;
+    text-decoration: underline;
+    display: inline-block;
+    margin-left: 25px;
+}
+.electronicsBox ul li{
+    font-size: 16px;
+    font-weight:500;
+    color:#333;
+    margin-bottom: 20px;
+}
+
+/**** 招标信息推荐 ****/
+.informationList{
+    background: #fff;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+.informationList .list_top .title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.list_bottom ul li{
+    height: 55px;
+}
+.list_bottom ul li:hover span{
+    color: #EB633D;
+}
+.list_bottom ul li a{
+    width:100%;
+    overflow: hidden;
+    margin:0 auto;
+    float:left;
+    font-size:16px;
+    padding-bottom: 40px;
+    text-decoration: none;
+    color:#222
+}
+.list_bottom ul li a span{
+    float:left
+}
+.list_bottom ul li a span.bids_news_span2{
+    width:860px;
+}
+.list_bottom ul li a span.bids_news_span3{
+    width:210px;
+}
+.list_bottom ul li a span.bids_news_span4{
+    width:110px;
+}
+
+/****投标中标****/
+.consult{
+    background:#F5F5F7;
+    height:220px;
+    padding-top: 50px;
+}
+.consult .consult_top,.consult .consult_bottom {
+    text-align: center;
+}
+.consult .consult_top h4{
+    font-size: 38px;
+    font-weight:600;
+    margin-bottom: 20px;
+}
+.consult .consult_top h4 span{
+    color:#df3c38;
+}
+.consult .consult_top h5{
+    font-size: 18px;
+    font-weight: 500;
+    color:#999;
+    margin-bottom: 30px;
+}
+.consult .consult_bottom a{
+    float: left;
+    width: 200px;
+    height: 66px;
+    background:#EA913A;
+    border-radius: 33px;
+    text-align: center;
+    line-height:66px;
+    color:#fff;
+    margin-left: 400px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.consult .consult_bottom a:nth-child(2){
+    background:#EB633D;
+    margin-left: 20px;
+}
+/**** 底部 ****/
+/*footer*/
+.footer{
+    height: 420px;
+    background: #2d2d2d;
+    padding:0;
+}
+.footerBox{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bottomBoxOne{
+    float:left;
+    width: 117px;
+}
+.bottomBoxTwo{
+    width:370px;
+    overflow: hidden;
+    float: left;
+    font-size: 14px;
+    color:#fff;
+    margin-left:50px;
+}
+.bottomBoxTwo p{
+    margin-bottom: 18px;
+}
+.bottomBoxThree{
+    width:315px;
+    overflow: hidden;
+    float: left;
+}
+.bottomBoxThree p{
+    width:130px;
+    text-align: center;
+    float: left;
+    color:#fff;
+    margin-right: 10px;
+}
+.bottomBoxThree p img{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+.bottomBoxThree p:nth-child(1) img{
+    border:4px #fff solid;
+}
+.bottomBoxThree p span{
+    display: block;
+    width: 140px;
+    height: 30px;
+    background:#EB633D;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    border-radius: 15px;
+    margin-top:20px;
+}
+.bottomBoxFour{
+    width:342px;
+    float: right;
+    overflow: hidden;
+    color:#fff;
+}
+.bottomBoxFour ul li a{
+    font-size: 14px;
+    color:#fff;
+    line-height: 30px;
+    float: left;
+    margin-right: 15px;
+}
+.bottomBoxFour ul{
+    margin-bottom: 38px;
+    overflow: hidden;
+}
+.bottomBoxFour p{
+    font-size: 14px;
+    line-height: 30px;
+}
+/*底部固定区域*/
+.fixBottom{
+    width:100%;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin:0 auto;
+    z-index: 8888;
+    background: #f1f1f1;
+    height:100px;
+}
+.fixBottom .telBoxs h2{
+    font-size: 21px;
+    float: right;
+    line-height: 52px;
+    color:#ed493f;
+    display: inline-block;
+    margin:0;
+}
+.fixBottom .telBoxs h2 i{
+    font-size: 25px;
+    font-style:normal;
+}
+.fixBottom span{
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    color:#ed493f;
+    margin-top:15px;
+    margin-bottom:5px;
+    width:100%;
+}
+.fixBottom .telBoxs{
+    width:1030px;
+    height:52px;
+    margin:24px auto 0;
+    text-align: center;
+    overflow: hidden;
+}
+.fixBottom .telBoxs .telBox{
+    width:622px;
+    height:52px;
+    float: left;
+    overflow: hidden;
+}
+.fixBottom .telBoxs input[type="tel"]{
+    width:320px;
+    height:52px;
+    font-size: 16px;
+    background: #FFE8E7;
+    border-radius:6px;
+    padding-left: 20px;
+    border:none;
+    outline: none;
+    color:#333;
+}
+.fixBottom .telBoxs input[type="submit"]{
+    width:140px;
+    margin-left:20px;
+    font-weight: 500;
+    height:52px;
+    color:#fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 52px;
+    border:none;
+    background: #EB633D;
+    border-radius: 26px;
+    cursor: pointer;
+}
+
+/**** 右侧固定部分 ****/
+.suspensionBox{
+    width: 166px;
+    height: 482px;
+    background:#EB633D;
+    position: fixed;
+    margin: 0 auto;
+    z-index: 9998;
+    right: 0;
+    bottom: 20px;
+    text-align: center;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    color:#fff;
+    border-radius: 8px;
+}
+.suspensionBox .wxImg{
+    width: 112px;
+    height: 112px;
+    display: block;
+    margin:21px auto 0;
+}
+.suspensionBox .spanText{
+    font-size: 16px;
+    display: block;
+    padding-top:4px;
+}
+.suspensionBox p{
+    margin-top:40px;
+}
+.suspensionBox .topImg{
+    margin-top:25px;
+    width: 30px;
+    cursor: pointer;
+}
+
+/**** 弹窗部分****/
+.modalBox {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 9999;
+    display: none;
+}
+
+/*通用模态窗*/
+.modalBox .modal_common{
+    background: url("../images/modal/modal_bg.png");
+    height: 506px;
+    width: 600px;
+    position:fixed;
+    z-index: 999;
+    left:50%;
+    top:50%;
+    margin-left:-300px;
+    margin-top:-258px;
+    display: none;
+}
+.modalBox .modal_common .close{
+    width: 49px;
+    height: 46px;
+    background: url("../images/modal/close.png");
+    position: absolute;
+    z-index: 9999;
+    left:574px;
+    top:-20px;
+    cursor: pointer;
+}
+.modalBox .modal_common .modal_top{
+    height: 190px;
+    width: 100%;
+    padding-top: 40px;
+}
+.modalBox .modal_common .modal_top .title{
+    margin-bottom: 13px;
+    font-size:36px ;
+    font-weight: 600;
+    width: 100%;
+    color: #fff;
+}
+.modalBox .modal_common .modal_top .subtitle{
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+}
+.modalBox .modal_common .modal_top .top_bottom{
+    width: 500px;
+    margin: 20px auto 0;
+    height: 60px;
+    opacity: 1;
+    background:#fff;
+    border-radius: 30px
+}
+.modalBox .modal_common .modal_top .top_bottom .phoneIcon {
+    position: absolute;
+    background: url(../images/serviceType/phone_gray.png) no-repeat;
+    z-index: 88;
+    margin-left: -330px;
+    margin-top: 16px;
+    display: inline-block;
+    width: 27px;
+    height: 30px;
+}
+.modalBox .modal_common .modal_top .top_bottom .searchInput{
+    width:280px;
+    height:60px;
+    float: left;
+    border:none;
+    padding-left:46px;
+    padding-right: 20px;
+    font-size: 20px;
+    border-radius:30px;
+    cursor: pointer;
+    outline:none;
+    background: #fff;
+    color:#333;
+}
+.modalBox .modal_common .modal_top .top_bottom input[type="submit"]{
+    width: 148px;
+    height: 54px;
+    opacity: 1;
+    font-weight: 600;
+    background:#EB9F3D;
+    border:none;
+    color:#66451B;
+    font-size: 20px;
+    margin-top:3px;
+    border-radius: 27px;
+    cursor: pointer;
+}
+.modalBox .modal_common .modal_bottom{
+    width:100%;
+    height: 276px;
+
+}
+.modalBox .modal_common .modal_bottom .bottom_left,.modalBox .modal_common .modal_bottom .bottom_right{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.modalBox .modal_common .modal_bottom .label{
+    margin-top: 54px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+.modalBox .modal_common .modal_bottom .bottom_left span{
+    font-size: 21px;
+    color: #333;
+}
+.modalBox .modal_common .modal_bottom .bottom_left img{
+    margin-right: -7px;
+    margin-top: -5px;
+    vertical-align: middle;
+}
+.modalBox .modal_common .modal_bottom .imgWrap{
+    background: #fff;
+    text-align: center;
+    margin: 0 auto;
+    width: 116px;
+    border-radius: 4px;
+    height: 118px;
+    line-height: 116px;
+}
+
+/*登录模态窗*/
+.modalBox .modal_login{
+    background: url("../images/modalLogin/modal_bg.png");
+    height: 390px;
+    width: 500px;
+    position:fixed;
+    z-index: 999;
+    left:50%;
+    top:50%;
+    margin-left:-250px;
+    margin-top:-195px;
+    display: none;
+}
+.modalBox .modal_login .close{
+    width: 49px;
+    height: 46px;
+    background: url("../images/modal/close.png");
+    position: absolute;
+    z-index: 9999;
+    left:474px;
+    top:-20px;
+    cursor: pointer;
+}
+.modalBox .modal_login .modal_top{
+    font-size: 32px;
+    color: #fff;
+    height: 114px;
+    line-height: 114px;
+    text-align: center;
+    width: 100%;
+}
+.modalBox .modal_login .modal_bottom{
+    width:100%;
+    height: 280px;
+}
+.modalBox .modal_login .modal_bottom .bottom_top{
+    width: 444px;
+    margin: 0 auto 23px;
+    height: 60px;
+    opacity: 1;
+    background:#fff;
+    border-radius: 30px;
+    position: relative;
+}
+.modalBox .modal_login .modal_bottom .bottom_top .phoneIcon {
+    position: absolute;
+    background: url(../images/modalLogin/phone.png) no-repeat;
+    z-index: 88;
+    margin-left: -212px;
+    margin-top: 18px;
+    display: inline-block;
+    width: 34px;
+    height: 30px;
+}
+.modalBox .modal_login .modal_bottom .bottom_top .searchInput{
+    position: absolute;
+    width:380px;
+    height:60px;
+    float: left;
+    border:none;
+    padding-left:46px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-radius:30px;
+    cursor: pointer;
+    outline:none;
+    background: #fff;
+    color:#333;
+    margin-left: -224px;
+}
+.modalBox .modal_login .modal_bottom .bottom_middle{
+    width: 444px;
+    margin: 0 auto 23px;
+    height:60px;
+    opacity: 1;
+    background:#fff;
+    border-radius: 30px
+}
+.modalBox .modal_login .modal_bottom .bottom_middle .saveIcon {
+    position: absolute;
+    background: url(../images/modalLogin/save.png) no-repeat;
+    z-index: 88;
+    margin-left: -272px;
+    margin-top: 18px;
+    display: inline-block;
+    width: 34px;
+    height: 26px;
+}
+.modalBox .modal_login .modal_bottom .bottom_middle .searchInput{
+    width:214px;
+    height:60px;
+    float: left;
+    border:none;
+    padding-left:46px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-radius:30px;
+    cursor: pointer;
+    outline:none;
+    background: #fff;
+    color:#333;
+}
+.modalBox .modal_login .modal_bottom .bottom_middle input[type="submit"]{
+    width: 156px;
+    height: 54px;
+    opacity: 1;
+    font-weight: 500;
+    background:#EB9F3D;
+    border:none;
+    color:#66451B;
+    font-size: 20px;
+    margin-top: 3px;
+    border-radius: 27px;
+    cursor: pointer;
+}
+.modalBox .modal_login .modal_bottom .bottom_bottom input[type="submit"]{
+    width: 444px;
+    height:60px;
+    opacity: 1;
+    font-weight: 600;
+    background:#EB9F3D;
+    border:none;
+    color:#66451B;
+    font-size: 22px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/*服务范围模态窗*/
+.modalBox .modal_service{
+    background: url("../images/modalSearch/modal_bg.png");
+    height: 580px;
+    width: 600px;
+    position:fixed;
+    z-index: 999;
+    left:50%;
+    top:50%;
+    margin-left:-300px;
+    margin-top:-254px;
+    display: none;
+}
+.modalBox .modal_service .close{
+    width: 49px;
+    height: 46px;
+    background: url("../images/modal/close.png");
+    position: absolute;
+    z-index: 9999;
+    left:574px;
+    top:-20px;
+    cursor: pointer;
+}
+.modalBox .modal_service .modal_top{
+    overflow: hidden;
+    width: 100%;
+}
+.modalBox .modal_service .modal_top .main_title{
+    margin-top: 28px;
+    text-align: center;
+    font-size:34px ;
+    font-weight: 600;
+    width: 100%;
+    color: #fff;
+}
+.modalBox .modal_service .modal_top .main_title span{
+    color: #F0F000;
+}
+.modalBox .modal_service .modal_top .subtitle{
+    color: #fff;
+    font-size: 24px;
+    width: 160px;
+    height: 60px;
+    margin: 0 auto;
+    line-height: 60px;
+}
+.modalBox .modal_service .modal_middle .middle_top{
+    width: 500px;
+    margin: 0 auto 20px;
+    height: 60px;
+    opacity: 1;
+    background:#fff;
+    border-radius: 30px;
+    position: relative;
+}
+.modalBox .modal_service .modal_middle .middle_top .phoneIcon {
+    position: absolute;
+    background: url(../images/modalLogin/phone.png) no-repeat;
+    z-index: 88;
+    margin-left: -234px;
+    margin-top: 18px;
+    display: inline-block;
+    width: 34px;
+    height: 30px;
+}
+.modalBox .modal_service .modal_middle .middle_top .searchInput{
+    position: absolute;
+    margin-left: -250px;
+    width:420px;
+    height:60px;
+    float: left;
+    border:none;
+    padding-left:46px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-radius:30px;
+    cursor: pointer;
+    outline:none;
+    background: #fff;
+    color:#333;
+}
+.modalBox .modal_service .modal_middle .middle_middle{
+    width: 500px;
+    margin: 0 auto 20px;
+    height:60px;
+    opacity: 1;
+    background:#fff;
+    border-radius: 30px
+}
+.modalBox .modal_service .modal_middle .middle_middle .saveIcon {
+    position: absolute;
+    background: url(../images/modalLogin/save.png) no-repeat;
+    z-index: 88;
+    margin-left: -338px;
+    margin-top: 18px;
+    display: inline-block;
+    width: 34px;
+    height: 26px;
+}
+.modalBox .modal_service .modal_middle .middle_middle .searchInput{
+    width:284px;
+    height:60px;
+    float: left;
+    border:none;
+    padding-left:46px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-radius:30px;
+    cursor: pointer;
+    outline:none;
+    background: #fff;
+    color:#333;
+}
+.modalBox .modal_service .modal_middle .middle_middle input[type="submit"]{
+    width: 140px;
+    height: 52px;
+    opacity: 1;
+    font-weight: 500;
+    background:#FFAD42;
+    border:none;
+    color:#66451B;
+    font-size: 20px;
+    margin-top: 4px;
+    border-radius: 26px;
+    cursor: pointer;
+}
+.modalBox .modal_service .modal_middle .middle_bottom input[type="submit"]{
+    width: 500px;
+    height:60px;
+    opacity: 1;
+    font-weight: 600;
+    background:#FFAD42;
+    border:none;
+    color:#66451B;
+    font-size: 22px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.modalBox .modal_service .modal_bottom{
+    width:100%;
+    overflow: hidden;
+}
+.modalBox .modal_service .modal_bottom .bottom_left,.modalBox .modal_service .modal_bottom .bottom_right{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.modalBox .modal_service .modal_bottom .label{
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+.modalBox .modal_service .modal_bottom .bottom_left span{
+    font-size: 21px;
+    color: #333;
+}
+.modalBox .modal_service .modal_bottom .bottom_left img{
+    margin-right: -7px;
+    margin-top: -5px;
+    vertical-align: middle;
+}
+.modalBox .modal_service .modal_bottom .imgWrap{
+    background: #fff;
+    text-align: center;
+    margin: 0 auto;
+    width: 116px;
+    border-radius: 4px;
+    height: 118px;
+    line-height: 116px;
+}
+
+/*header搜索模态窗*/
+.modalBox .modal_search{
+    background: url("../images/modalSearch/modal_bg.png");
+    height: 580px;
+    width: 600px;
+    position:fixed;
+    z-index: 999;
+    left:50%;
+    top:50%;
+    margin-left:-300px;
+    margin-top:-254px;
+    display: none;
+}
+.modalBox .modal_search .close{
+    width: 49px;
+    height: 46px;
+    background: url("../images/modal/close.png");
+    position: absolute;
+    z-index: 9999;
+    left:574px;
+    top:-20px;
+    cursor: pointer;
+}
+.modalBox .modal_search .modal_top{
+    overflow: hidden;
+    width: 100%;
+}
+.modalBox .modal_search .modal_top .title{
+    margin-top: 28px;
+    text-align: center;
+    font-size:34px ;
+    font-weight: 600;
+    width: 100%;
+    color: #fff;
+}
+.modalBox .modal_search .modal_top .title span{
+    color: #F0F000;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    max-width: 120px ;
+    vertical-align: bottom;
+}
+.modalBox .modal_search .modal_top .subtitle{
+    color: #fff;
+    font-size: 24px;
+    width: 160px;
+    height: 60px;
+    margin: 0 auto;
+    line-height: 60px;
+}
+.modalBox .modal_search .modal_middle .middle_top{
+    width: 500px;
+    margin: 0 auto 20px;
+    height: 60px;
+    opacity: 1;
+    background:#fff;
+    border-radius: 30px;
+    position: relative;
+}
+.modalBox .modal_search .modal_middle .middle_top .phoneIcon {
+    position: absolute;
+    background: url(../images/modalLogin/phone.png) no-repeat;
+    z-index: 88;
+    margin-left: -236px;
+    margin-top: 18px;
+    display: inline-block;
+    width: 34px;
+    height: 30px;
+}
+.modalBox .modal_search .modal_middle .middle_top .searchInput{
+    position: absolute;
+    width:420px;
+    margin-left: -252px;
+    height:60px;
+    float: left;
+    border:none;
+    padding-left:46px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-radius:30px;
+    cursor: pointer;
+    outline:none;
+    background: #fff;
+    color:#333;
+}
+.modalBox .modal_search .modal_middle .middle_middle{
+    width: 500px;
+    margin: 0 auto 20px;
+    height:60px;
+    opacity: 1;
+    background:#fff;
+    border-radius: 30px
+}
+.modalBox .modal_search .modal_middle .middle_middle .saveIcon {
+    position: absolute;
+    background: url(../images/modalLogin/save.png) no-repeat;
+    z-index: 88;
+    margin-left: -340px;
+    margin-top: 18px;
+    display: inline-block;
+    width: 34px;
+    height: 26px;
+}
+.modalBox .modal_search .modal_middle .middle_middle .searchInput{
+    width:286px;
+    height:60px;
+    float: left;
+    border:none;
+    padding-left:46px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-radius:30px;
+    cursor: pointer;
+    outline:none;
+    background: #fff;
+    color:#333;
+}
+.modalBox .modal_search .modal_middle .middle_middle input[type="submit"]{
+    width: 140px;
+    height: 52px;
+    opacity: 1;
+    font-weight: 500;
+    background:#FFAD42;
+    border:none;
+    color:#66451B;
+    font-size: 20px;
+    margin-top: 4px;
+    border-radius: 26px;
+    cursor: pointer;
+}
+.modalBox .modal_search .modal_middle .middle_bottom input[type="submit"]{
+    width: 500px;
+    height:60px;
+    opacity: 1;
+    font-weight: 600;
+    background:#FFAD42;
+    border:none;
+    color:#66451B;
+    font-size: 22px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.modalBox .modal_search .modal_bottom{
+    width:100%;
+    overflow: hidden;
+}
+.modalBox .modal_search .modal_bottom .bottom_left,.modalBox .modal_search .modal_bottom .bottom_right{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.modalBox .modal_search .modal_bottom .label{
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+.modalBox .modal_search .modal_bottom .bottom_left span{
+    font-size: 21px;
+    color: #333;
+}
+.modalBox .modal_search .modal_bottom .bottom_left img{
+    margin-right: -7px;
+    margin-top: -5px;
+    vertical-align: middle;
+}
+.modalBox .modal_search .modal_bottom .imgWrap{
+    background: #fff;
+    text-align: center;
+    margin: 0 auto;
+    width: 116px;
+    border-radius: 4px;
+    height: 118px;
+    line-height: 116px;
+}
